@@ -1,40 +1,251 @@
 {
-	"templateId": "generic",
-	"businessName": "Your Business",
-	"tagline": "Professional services you can trust",
-	"primaryColor": "#7c3aed",
-	"secondaryColor": "#f3f4f6",
-	"font": "Inter",
-	"heroImageUrl": "",
-	"aboutImageUrl": "",
-	"aboutText": "",
-	"footerText": "",
-	"whatsappNumber": "",
-	"googleMapsEmbedUrl": "",
-	"web3formsAccessKey": "",
-	"email": "",
-	"phone": "",
-	"address": "",
-	"hours": "",
-	"hero": { "headline": "", "subheadline": "", "ctaText": "Get a Quote", "image": "", "imagePrompt": "" },
-	"about": { "text": "", "image": "", "imagePrompt": "" },
-	"contact": { "email": "", "phone": "", "address": "", "hours": "", "whatsappNumber": "" },
-	"services": [],
-	"products": [],
-	"testimonials": [],
-	"pages": [
-		{
-			"slug": "home",
-			"name": "Home",
-			"sections": [
-				{ "type": "hero" },
-				{ "type": "services" },
-				{ "type": "testimonials" },
-				{ "type": "about" },
-				{ "type": "contact" },
-				{ "type": "footer" }
-			]
-		}
-	],
-	"sections": []
+  "aboutImageUrl": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800",
+  "aboutText": "The Literary Nook is a family‑run independent bookshop in the heart of Edinburgh. We've been serving book lovers since 2005, offering carefully curated selections, author events, and a warm community space where stories come alive.",
+  "address": "15 Rose Street, Edinburgh",
+  "businessName": "The Literary Nook",
+  "email": "hello@theliterarynook.co.uk",
+  "featuredItems": [],
+  "font": "Playfair Display",
+  "footerText": "Curated reads for curious minds.",
+  "heroImageUrl": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1600",
+  "hours": "Mon–Sat, 9am–7pm | Sun, 10am–5pm",
+  "pages": [
+    {
+      "name": "Home",
+      "sections": [
+        {
+          "style": "minimal",
+          "type": "hero"
+        },
+        {
+          "title": "Bestselling Books",
+          "type": "productGrid"
+        },
+        {
+          "items": [
+            "Fiction",
+            "Non‑fiction",
+            "Children's",
+            "Poetry",
+            "Mystery",
+            "Sci‑Fi"
+          ],
+          "title": "Browse by Genre",
+          "type": "featuredCollection"
+        },
+        {
+          "layout": "image-right",
+          "type": "about"
+        },
+        {
+          "layout": "grid",
+          "type": "testimonials"
+        },
+        {
+          "type": "footer"
+        }
+      ],
+      "slug": "home"
+    },
+    {
+      "name": "Services",
+      "sections": [
+        {
+          "style": "minimal",
+          "type": "hero"
+        },
+        {
+          "type": "productGrid"
+        },
+        {
+          "type": "featuredCollection"
+        },
+        {
+          "type": "footer"
+        }
+      ],
+      "slug": "services"
+    },
+    {
+      "name": "About",
+      "sections": [
+        {
+          "style": "minimal",
+          "type": "hero"
+        },
+        {
+          "type": "about"
+        },
+        {
+          "type": "testimonials"
+        },
+        {
+          "type": "footer"
+        }
+      ],
+      "slug": "about"
+    },
+    {
+      "name": "Contact",
+      "sections": [
+        {
+          "style": "minimal",
+          "type": "hero"
+        },
+        {
+          "type": "contact"
+        },
+        {
+          "type": "footer"
+        }
+      ],
+      "slug": "contact"
+    }
+  ],
+  "phone": "+44 131 123 7890",
+  "primaryColor": "#B45309",
+  "products": [
+    {
+      "description": "Matt Haig – a novel about life's infinite possibilities",
+      "imageUrl": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400",
+      "name": "The Midnight Library",
+      "price": 12.99
+    },
+    {
+      "description": "James Clear – tiny changes, remarkable results",
+      "imageUrl": "https://images.unsplash.com/photo-1589998059171-988d887df646?w=400",
+      "name": "Atomic Habits",
+      "price": 14.99
+    },
+    {
+      "description": "Delia Owens – a mesmerising mystery",
+      "imageUrl": "https://images.unsplash.com/photo-1621351183012-e2f9972bd5a?w=400",
+      "name": "Where the Crawdads Sing",
+      "price": 10.99
+    }
+  ],
+  "secondaryColor": "#FFFBEB",
+  "sections": [
+    {
+      "style": "minimal",
+      "type": "hero"
+    },
+    {
+      "title": "Bestselling Books",
+      "type": "productGrid"
+    },
+    {
+      "items": [
+        "Fiction",
+        "Non‑fiction",
+        "Children's",
+        "Poetry",
+        "Mystery",
+        "Sci‑Fi"
+      ],
+      "title": "Browse by Genre",
+      "type": "featuredCollection"
+    },
+    {
+      "layout": "image-right",
+      "type": "about"
+    },
+    {
+      "layout": "grid",
+      "type": "testimonials"
+    },
+    {
+      "layout": "simple",
+      "type": "contact"
+    }
+  ],
+  "services": [
+    {
+      "description": "Matt Haig – a novel about life's infinite possibilities",
+      "durationHours": "N/A",
+      "name": "The Midnight Library",
+      "popular": false,
+      "priceFrom": 12.99
+    },
+    {
+      "description": "James Clear – tiny changes, remarkable results",
+      "durationHours": "N/A",
+      "name": "Atomic Habits",
+      "popular": false,
+      "priceFrom": 14.99
+    },
+    {
+      "description": "Delia Owens – a mesmerising mystery",
+      "durationHours": "N/A",
+      "name": "Where the Crawdads Sing",
+      "popular": false,
+      "priceFrom": 10.99
+    }
+  ],
+  "tagline": "Independent bookstore – discover your next great read",
+  "templateId": "bookshop",
+  "testimonials": [
+    {
+      "author": "Lucy P.",
+      "location": "Edinburgh",
+      "rating": 5,
+      "text": "A magical place! The staff recommendations are always spot-on."
+    },
+    {
+      "author": "Daniel M.",
+      "location": "Glasgow",
+      "rating": 5,
+      "text": "Best independent bookshop in Scotland. Their children's section is wonderful."
+    },
+    {
+      "author": "Sophie L.",
+      "location": "Edinburgh",
+      "rating": 5,
+      "text": "The author events they host are intimate and incredibly engaging."
+    },
+    {
+      "author": "James K.",
+      "location": "Edinburgh",
+      "rating": 5,
+      "text": "I've discovered so many brilliant books thanks to their curated selections."
+    },
+    {
+      "author": "Priya S.",
+      "location": "Edinburgh",
+      "rating": 5,
+      "text": "The cozy reading corner makes every visit feel like a treat."
+    },
+    {
+      "author": "Tom B.",
+      "location": "Glasgow",
+      "rating": 4,
+      "text": "They special-order any book I want within days. Exceptional service."
+    },
+    {
+      "author": "Emma R.",
+      "location": "Edinburgh",
+      "rating": 5,
+      "text": "The monthly book club has introduced me to genres I'd never have tried."
+    },
+    {
+      "author": "Anna W.",
+      "location": "Edinburgh",
+      "rating": 5,
+      "text": "Beautiful shop with a brilliant selection of poetry and rare editions."
+    },
+    {
+      "author": "Oliver H.",
+      "location": "Edinburgh",
+      "rating": 5,
+      "text": "I order all my gifts from here. Their gift wrapping is a lovely touch."
+    }
+  ],
+  "whatsappNumber": "447123456800",
+  "contact": {
+    "email": "hello@theliterarynook.co.uk",
+    "phone": "+44 131 123 7890",
+    "address": "15 Rose Street, Edinburgh",
+    "hours": "Mon–Sat, 9am–7pm | Sun, 10am–5pm",
+    "whatsappNumber": "447123456800"
+  }
 }
